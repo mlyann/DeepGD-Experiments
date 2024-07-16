@@ -10,15 +10,16 @@ The original DeepGD repository can be found [here](https://github.com/yolandalal
 
 This repository contains:
 - `deepgd.py`: The main implementation of the DeepGD model.
-- `models.zip`: Pre-trained models used in the experiments.
+- `models.zip`: Pre-trained models using same code.
 - `run.py`: The script to train and evaluate the DeepGD model using various parameters.
 
 ## Parameters
 
-Below are the parameters used in the experiments:
+Below are the parameters (mentioned in the paper) used in the experiments:
 
 - **Batch Size**: 128
 - **Learning Rate (lr)**: 0.01
+- **Epochs**:400
 - **Criteria**:
   - `dgd.Stress()`: 1
   - (Other criteria can be added as needed and set to appropriate weights)
